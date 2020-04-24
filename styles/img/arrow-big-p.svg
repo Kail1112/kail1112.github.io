@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="198" viewBox="0 0 64 198">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M44 4H108V202H44z" transform="translate(-44 -4)"/>
+        <g stroke="#AF53FF" stroke-linecap="round" stroke-width="2">
+            <path stroke-dasharray="10 7" stroke-linejoin="bevel" d="M85.19 198.188c-24.892-21.07-37.339-48.543-37.339-82.42 0-33.878 17.145-67.937 51.433-102.177" transform="translate(-44 -4)"/>
+            <path d="M85.23 12.75l18.944-5.261c.085-.024.173.026.197.111.006.023.008.047.004.07l-3.391 19.265h0" transform="translate(-44 -4)"/>
+        </g>
+    </g>
+</svg>
