@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="48px" viewBox="0 0 38 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/security-medium-m</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/security-medium-m" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 2.000000)">
+            <path d="M34,7.08555886 L18,1.06837798 L2,7.08555886 L2,29.0079074 C2.35040441,30.426386 4.30268641,33.3401132 6.41089301,35.256535 C9.44609729,38.0156249 12.9432843,40.1922825 17.9968963,42.8677642 C21.2007433,41.1523392 22.9024078,40.1765746 25.1213429,38.6935349 C26.8237843,37.5556971 28.3259573,36.4110397 29.5992512,35.2558714 C31.6965145,33.3531747 33.6491769,30.4291888 34,29.0079452 L34,7.08555886 Z" id="Combined-Shape" stroke="#F20C92" stroke-width="2" fill-opacity="0" fill="#FFFFFF"></path>
+            <rect id="Rectangle" fill="#F20C92" x="7" y="13" width="2" height="15" rx="0.75"></rect>
+        </g>
+    </g>
+</svg>
