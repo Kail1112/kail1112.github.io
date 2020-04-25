@@ -4,6 +4,36 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            (function(){
+                function addFont() {
+                    var style = document.createElement('style');
+                    style.rel = 'stylesheet';
+                    document.head.appendChild(style);
+                    style.textContent = localStorage.fontsForSite;
+                }
+        
+                try {
+                    if (localStorage.fontsForSite) {
+                        addFont();
+                    } else {
+                        var request = new XMLHttpRequest();
+                        request.open('GET', '/styles/css/fonts.css', true);
+        
+                        request.onload = function() {
+                            if (request.status >= 200 && request.status < 400) {
+                                localStorage.fontsForSite = request.responseText;
+                                addFont();
+                            }
+                        }
+                        request.send();
+                    }
+                } catch(ex) {
+                    console.error('Ошибка во время подгрузки шрифтов')
+                }
+            }());
+        </script>
+        
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
         <link rel="stylesheet" href="styles/css/main.css">
         <title>Прием платежей на сайте без покупки онлайн кассы</title>
